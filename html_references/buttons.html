@@ -1,0 +1,243 @@
+<!--
+GENERAL TECHNIQUE 
+1. Create element with HTML
+2. Style with CSS one-by-one
+-->
+
+<!--
+1. CSS SELECTOR : 
+Button is a CSS SELECTOR : tells which elements are being targeted in the code.
+
+2. CSS PROPERTY : 
+BG-COLOR is a CSS PROPERTY : what prpoerty of element we are changing.
+
+3. CSS VALUE : 
+Red is CSS VALUE : What value we are assigning to the property.
+-->
+
+<style>
+    .subscribe-button{
+        background-color : rgb(202, 0, 0);
+        color : white;
+        border : none;
+        height : 36px;
+        width : 105px;
+        border-radius : 2px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .join-button{
+        background-color : white;
+        border-color : rgb(63, 138, 218);
+        border-style : solid;
+        border-width : 1px;
+        color : rgb(63, 138, 218);
+        height : 36px;
+        width : 60px;
+        border-radius : 2px;
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px; 
+    }
+
+    .tweet-button{
+        background-color : rgb(75, 171, 226);
+        border-color : rgb(75, 171, 226);
+        border : none;
+        color : white;
+        font-weight : bold;
+        font-size : 14px;
+        height : 36px;
+        width : 70px;
+        border-radius : 20px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px; 
+    }
+
+    .uber-button{
+        background-color : rgb(0, 0, 0);
+        border-color : rgb(0, 0, 0);
+        border : none;
+        color : white;
+        font-size : 13px;
+        height : 36px;
+        width : 100px;
+        border-radius : 2px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .amazon-cart-button{
+        background-color : rgb(255, 216, 20);
+        border-color : rgb(255, 216, 20);
+        border : none;
+        color : rgb(0, 0, 0);
+        font-size : 13px;
+        height : 36px;
+        width : 170px;
+        border-radius : 20px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .github-signup-button{
+        background-color : rgb(67, 179, 99);
+        border-color : rgb(46, 164, 99);
+        border : none;
+        color : white;
+        font-weight : bold;
+        font-size : 14px;
+        height : 36px;
+        width : 110px;
+        border-radius : 8px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .bootstrap1-button{
+        background-color : rgb(121, 82, 179);
+        border : none;
+        color : white;
+        font-weight : bold;
+        font-size : 13px;
+        height : 36px;
+        width : 120px;
+        border-radius : 2px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+
+    .bootstrap2-button{
+        background-color : rgb(225, 225, 225);
+        border : solid;
+        color : rgb(109, 117, 125);
+        border-width : 1px;
+        font-weight : bold;
+        font-size : 13px;
+        height : 36px;
+        width : 120px;
+        border-radius : 2px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .linkedin1-button{
+        background-color : rgb(10, 102, 194);
+        border-color : rgb(10, 102, 194);
+        border : solid;
+        color : rgb(255, 255, 255);
+        font-weight : bold;
+        font-size : 13px;
+        height : 45px;
+        width : 300px;
+        border-radius : 25px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+
+    .linkedin2-button{
+        background-color : rgb(255, 255, 255);
+        border-color : rgb(10, 102, 194);
+        border-width : 0.1px;
+        border-style : solid;
+        color : rgb(10, 102, 194);
+        font-weight : bold;
+        font-size : 14px;
+        height : 40px;
+        width : 70px;
+        border-radius : 20px; 
+        cursor : pointer;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom : 10px;
+    }
+</style>
+
+
+ <!--
+boorder radius for tweeter trick : 
+ radius shall be half of height or width for such kind of rounded effect
+ -->
+
+ <br><br> 
+
+<button class = "subscribe-button">
+    SUBSCRIBE
+</button>
+
+<button class = "join-button">
+    JOIN
+</button>
+
+<button class = "tweet-button">
+    Tweet
+</button>
+
+<br><br><br><br>
+
+<button class = "uber-button">
+    Request now
+</button>
+
+<button class = "amazon-cart-button">
+    Add to Cart
+</button>
+
+<button class = "github-signup-button">
+    Sign up
+</button>
+
+<br><br><br><br>
+
+<button class = "bootstrap1-button">
+    Get started
+</button>
+
+<button class = "bootstrap2-button">
+    Download
+</button>
+
+<br><br><br><br>
+
+<button class = "linkedin1-button">
+    Apply on Company Website
+</button>
+
+<button class = "linkedin2-button">
+    Save
+</button>
+
+<br><br><br><br><br><br>
+
+<button class = "tweet-button">
+    Tweet
+</button>
