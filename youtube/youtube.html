@@ -62,6 +62,16 @@
         margin-top: 10px;
         margin-right: 10px;
         margin-bottom : 10px;
+        transition : opacity 0.15s;
+        vertical-align: top;
+    }
+
+    .amazon-cart-button1:hover{
+        opacity: 0.8;
+    }
+
+    .amazon-cart-button1:active{
+        opacity: 0.8;
     }
 
     .amazon-cart-button2{
@@ -78,16 +88,30 @@
         margin-top: 10px;
         margin-right: 10px;
         margin-bottom : 10px;
+        transition : opacity 0.15s, background-color 0.15s;
+        vertical-align: top;
+    }
+
+    .amazon-cart-button2:hover{
+        background-color: rgb(224, 142, 20);
+    }
+
+    .amazon-cart-button2:active{
+        opacity: 0.8;
     }
 
     .para{
         color : rgb(0, 180, 0);
         font-weight : bold;
     }
+
+    .amazon-link:hover{
+        color: blue;
+    }
 </style>
 
 
-<a href="https://amazon.in/">
+<a href="https://amazon.in/" class ="amazon-link">
     Back to Amazon
 </a>
 <h4>
@@ -105,3 +129,12 @@
 <button class = "amazon-cart-button2">
     Buy Now
 </button>
+
+<!--
+DEV tools for CSS elements :
+    Used to pic and inspect elements on web page
+CSS BOX MODELS : 
+    margins, padding(better alternative to height and width)
+    - how much space an element takes 
+    - how far away from other elements
+-->
