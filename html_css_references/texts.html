@@ -1,12 +1,71 @@
 <style>
-    .article-title{
-        font-family: Arial;
-        font-size: 20px;
+    p{
+        font-family: Arial; 
+        margin-top: 0; 
+        margin-bottom : 0;
+    }
+    .video-title{         
+        font-size: 18px;
         font-weight: bold;
         text-align: left;
-        width: 300px;
+        width: 280px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .video-stats{         
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
+    
+    .video-author{         
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+    }
+
+    .video-descrp{         
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width : 280px;
+        line-height: 20px;
     }
 </style>
-<p class = "article-title">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eaque, illo quia ut quis reiciendis quisquam?
+
+<!--
+font-style : italic
+line-height : spaces between lines
+
+
+MARGIN - sace outside an element 
+paragraph by default come with margin at top and botton around 14px
+
+
+HTML Entity (dot, tick etc)
+code for special characters
+
+p{} - will create basic standard style for all the paragraph reducing redundant for setting font-family : Arial
+
+1. This helps cleaning up the code increasing readibilty 
+2. This reduces redundancy
+3. Shows that an element can be targeted by two sets of codes 
+    1. p - X element
+    2. class = "video-title" - having class Y
+    
+-->
+<p class = "video-title">
+    Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class = "video-stats">
+    3.4M views &#183;  6 months ago
+</p>
+
+<p class = "video-author">
+    Marques Brownlee &#10003; 
+</p>
+
+<p class = " video-descrp">
+    Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
 </p>

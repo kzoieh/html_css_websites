@@ -291,6 +291,55 @@ Red is CSS VALUE : What value we are assigning to the property.
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
         opacity : 0.8
     }
+
+
+    .pagination-1{
+        background-color: rgba(50, 255, 88, 0.581);
+        border : none;
+        border-radius : 5px; 
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .pagination-2{
+        border : none;
+    }
+
+    .pagination-2:hover{
+        background-color: rgba(50, 255, 88, 0.581);
+        border : none;
+        border-radius : 5px; 
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .stretch{
+        background-color: rgb(244, 135, 191);
+        border-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius : 20px; 
+        transition: padding-left 0.20s,
+                    padding-right 0.20s,
+                    padding-top 0.20s,
+                    padding-bottom0.20s, 
+                    border-radius 0.20s;
+        border-radius : 20px; 
+    }
+    .stretch:hover{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius : 40px; 
+    }
+
 </style>
 
 
@@ -372,7 +421,7 @@ Red is CSS VALUE : What value we are assigning to the property.
 <h4>
     PSUEDO CLASS : Hover, Active etc
     <br> A psuedo class that adds extra effects under certain situation on target class.
-    <br>target-class: psuedo-class
+    <br>target-class:psuedo-class{}
     <br>The condition being: 
     <br>hover - hovering over the element.
     <br>active - clicking over the element.
@@ -392,16 +441,36 @@ Red is CSS VALUE : What value we are assigning to the property.
     Tweet
 </button>
 
+<!--
+    Pagination :
+    Pagination is a method by whch  document is 
+    separated into pages and numbers are given
+-->
+    
 <h4>
     Pagination
 </h4>
+
+
+<button class = "pagination-1"><a href = "">Back</a></button>
+<button class = "pagination-2"><a href = "">1</a></button>
+<button class = "pagination-2"><a href = "">2</a></button>
+<button class = "pagination-2"><a href = "">3</a></button>
+<button class = "pagination-2"><a href = "">4</a></button>
+<button class = "pagination-2"><a href = "">5</a></button>
+<button class = "pagination-1"><a href = "">Next</a></button>
+
 
 <h4>
     Stretch
 </h4>
 
+<button class = "stretch">
+    hover to stretch
+</button>
+
 <h4>
-    3D Click
+    3D Click 1:17:27
 </h4>
 
 <h4>
