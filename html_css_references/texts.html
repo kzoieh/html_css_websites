@@ -31,6 +31,23 @@
         width : 280px;
         line-height: 20px;
     }
+
+    .apple-text{
+        background-color: rgb(227, 65, 64);
+        color: white;
+        border: none;
+        font-size: 14px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+
+    }
+    
+    .span-eg:hover{ 
+        text-decoration: underline;
+        cursor: pointer;
+    }
 </style>
 
 <!--
@@ -38,21 +55,47 @@ font-style : italic
 line-height : spaces between lines
 
 
-MARGIN - sace outside an element 
+MARGIN 
+----------------
+ space outside an element 
 paragraph by default come with margin at top and botton around 14px
 
 
-HTML Entity (dot, tick etc)
+HTML Entity 
+------------------
+eg. (dot, tick etc)
 code for special characters
 
-p{} - will create basic standard style for all the paragraph reducing redundant for setting font-family : Arial
+p{}
+-------------------
+
+will create basic standard style for all the paragraph reducing redundant for setting font-family : Arial
 
 1. This helps cleaning up the code increasing readibilty 
 2. This reduces redundancy
 3. Shows that an element can be targeted by two sets of codes 
-    1. p - X element
-    2. class = "video-title" - having class Y
-    
+    1. Element - X element - p
+    2. Class - having class Y - class = "video-title" 
+   
+CSS Specifity 
+----------------- 
+you can see the attribute values in class are prioritized over p 
+this is because of CSS property - CSS Specificity
+
+CSS Selectors
+------------------
+the p , .video-descrp, .video-title are called CSS Selectors
+CSS Selectors that target more specific group is prioritized 
+eg. class = "video-title" is targeting more specific group of text/elements than p
+
+
+
+TEXT ELEMENT 
+targeting specific part of text
+<strong></strong> - bolds text
+<u></u> - underlines text
+<span></span> - doesn't change much so can be used with some class to design some specific text the way we want
+
 -->
 <p class = "video-title">
     Talking Tech and AI with Google CEO Sundar Pichai!
@@ -68,4 +111,8 @@ p{} - will create basic standard style for all the paragraph reducing redundant 
 
 <p class = " video-descrp">
     Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+</p>
+
+<p class = "apple-text">
+    Shop early for the best selection of holiday favourites. <span class = "span-eg">Shop now &gt;</span>
 </p>
