@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image</title>
+        <style>
+            .image{
+                width: 600px;
+                height: 300px;
+                object-fit: contain;
+                object-position: right;
+                border-width: 10px;
+                border-style: solid;
+                border-color: goldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <img class = "image" src = "IMG.jpg">
+    </body>
+</html>
+
+<!--
+
+width : 300px;
+height : 300px;
+
+Adding height and width stratches the image rather one should use width only to maintain the dimension of image
+
+or use
+
+object-fit : cover; 
+covers the image in height and width while maintaining dimension
+
+object-fit : contain; 
+contains the image in height and width while maintaining dimension and leaving out extra space blank adjusting to length which is lower
+
+object-position : right, left, centre;
+adjust the image position in fitted area
+
+
+Centerin an image on page
+display: block;
+margin-left: auto;
+margin-right: auto;
+-->
