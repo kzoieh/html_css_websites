@@ -73,3 +73,178 @@ p{
     color: rgb(96, 96, 96);
 }
 
+.square
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+
+.shaping-a-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.feedback{
+    width: 200px;
+    height: 50px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(96, 96, 96);
+}
+
+.feedback{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tweet{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    padding-left: 12px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tweet-profile{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-image{
+    display: inline-block;
+    vertical-align: top;
+    width:  45px;
+    height:  45px;
+    border-radius: 40px;
+
+    object-fit: cover;
+    object-position: right;
+
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.tweet-box{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.input-box{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    width: 200px;
+    border : none;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.tweet-bttn{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tweet-button{
+    display: inline-block;
+    vertical-align: top;
+    background-color : rgb(75, 171, 226);
+    border-color : rgb(75, 171, 226);
+    border-radius : 20px; 
+    border : none;
+    color : white;
+
+    font-weight : bold;
+    font-size : 14px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    cursor : pointer;
+
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom : 10px; 
+
+    transition: box-shadow 0.15s, color 0.15s, opacity 0.15s;
+}
+
+.tweet-button:hover{
+    vertical-align: top;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    opacity : 0.8;
+}
+
+.facebook{
+    display: inline-block;
+
+    height: 225px;
+    width: 130px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom : 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+    font-family: sans-serif;
+}
+
+.fb-profile{
+    height: 120px;
+    width: 120px;
+    padding-left: 5px;
+    padding-top: 5px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.fb-name{
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.fb-frnds{
+    padding-left: 8px;
+}
+
+.fb-add-frnd{
+    background-color :  rgb(63, 156, 209);
+    border-color : rgb(46, 152, 214);
+    border : none;
+    color : white;
+    font-weight : bold;
+    font-size : 14px;
+    height : 36px;
+    width : 110px;
+    border-radius : 8px; 
+    cursor : pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom : 10px;
+    transition: box-shadow 0.15s, color 0.15s,opacity 0.15s;
+}
