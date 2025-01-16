@@ -1,8 +1,18 @@
 p{
-    font-family: Roboto; 
+    font-family: Roboto, Arial; 
     margin-top: 0; 
     margin-bottom : 0;
 }
+
+/*
+
+CONCEPT OF FONT STACK 
+
+font-family: Roboto, Arial;
+Here Arial is a backup font 
+If for some reason thw web page is not able to load the Robota font then it will Arial font 
+
+*/
 .video-title{         
     font-size: 18px;
     font-weight: bold;
