@@ -29,6 +29,7 @@ p{
     display: inline-block;
     vertical-align: top;
     margin-top: 15px;
+    background-color: gray;
 }
 
 .profile-image{
@@ -47,13 +48,14 @@ p{
 
 .video-info{
     display: inline-block;
+    background-color: gray;
 }
 
 .video-title{
     margin-top: 10px;margin-bottom: 10px;
     display: inline-block;
     font-weight: bold;
-    width: 235.462px;
+    width: 220.462px;
     vertical-align: middle;
 }
 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+    </head>
+    <body>
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 100px;
+            background-color: black;
+            ">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: lightpink;">Div 2<p>TEXT</p></div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 100px 200px;
+            background-color: black;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: lightpink;">Div 2<p>TEXT</p></div>
+            <div style="background-color: lightblue;">Div 3</div>
+            <div style="background-color: lightpink;">Div 4 is not deined in coloumn so it starts to wrap around the div</div>
+            <div style="background-color: lightblue;">Div 5</div>
+            <div style="background-color: lightpink;">Div 6</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            background-color: black;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: lightpink;">Div 2 : fr stands for free space i.e. take up the reaminiing free space of grid/div</div>
+        </div>
+    </body>
+</html>
+
+<!--
+
+In this example we are going to create a 1X2 CSS GRID 
+
+1 row 2 coloumns
+
+We created a div 
+Inside which there are two horizontal layouts 
+so inside are two other divs
+
+For the main div we have defined css grids inside it by 
+display: grid;
+
+and since we want 1X2, we have made two have defined two coloumns by 
+grid-template-columns: 100px 100px;
+which mean dividing the grid template by colomn 
+having two colomns of 100px width each
+
+now see when we add moore text to second div 'text'
+the first div align on its own 
+maintaining vertical alignment
+
+
+
+ADVANTAGES of CSS GRID over Display inline-block
+
+1. The divs are by default block elements but inside the div are taking up only 100px each.
+2. There is no extra space between the two elements or div unlike inline-block elements.
+3. The divs inside grid maintain vertical alignment unlike display inline blocks. 
+
+-->
+
+
+<!--
+
+CSS GRID
+
+When we use <div> and inline-block 
+    <div>
+        lorem ipsom
+    </div>
+    <div>
+        lorem ipsum 
+    </div>
+    leads to space between both the inline-block elements.
+    its the multiple space between two div elements that is combined to 1 space by HTML.
+
+    1) <div> leads to alignment problem.
+
+    We can solve a little of this problem by removing any space between the div elements but it makes our code non-readable.
+
+    2) Elements are not vertically aligned.
+
+CSS GRID help us make perfectly aligned HORIZONTAL LAYOUTS.
+
+-->
+
+
+<!--
+
+THREE WAY OF WRITING CSS CODE
+--------------------------------------------------
+<style> .class{} </style> n html file
+.class{} in .css file
+INLINE STYLES <tag styel = "attribute, attribute">
+
+-->
