@@ -1,0 +1,53 @@
+.profile-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.facebook{
+    height: 225px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom : 20px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+    font-family: sans-serif;
+}
+
+.fb-profile{
+    height: 120px;
+    width: 120px;
+    padding-left: 5px;
+    padding-top: 5px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.fb-name{
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.fb-frnds{
+    padding-left: 8px;
+}
+
+.fb-add-frnd{
+    background-color :  rgb(63, 156, 209);
+    border-color : rgb(46, 152, 214);
+    border : none;
+    color : white;
+    font-weight : bold;
+    font-size : 14px;
+    height : 36px;
+    width : 110px;
+    border-radius : 8px; 
+    cursor : pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom : 10px;
+    transition: box-shadow 0.15s, color 0.15s,opacity 0.15s;
+}

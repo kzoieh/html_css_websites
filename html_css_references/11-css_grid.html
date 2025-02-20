@@ -34,7 +34,63 @@
             margin-top: 20px;
             ">
             <div style="background-color: lightblue;">Div 1</div>
-            <div style="background-color: lightpink;">Div 2 : fr stands for free space i.e. take up the reaminiing free space of grid/div</div>
+            <div style="background-color: lightpink;">Div 2 : fr stands for free space i.e. take up the reamining free space of grid/div</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 1fr 1fr;
+            background-color: black;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: lightpink;">Div 2</div>
+            <div style="background-color: lightblue;">Div 3</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            background-color: black;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: lightpink;">Div 2</div>
+            <div style="background-color: lightblue;">Div 3 The number in front of fr tell the propotion of space.</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+            ">
+            <div style="background-color: lightblue; height: 100px;">Div 1</div>
+            <div style="background-color: lightpink; height: 100px;">Div 2</div>
+            <div style="background-color: lightblue; height: 100px;">Div 3</div>
+            <div style="background-color: lightpink; height: 100px;">Div 4</div>
+            <div style="background-color: lightblue; height: 100px;">Div 5</div>
+            <div style="background-color: lightpink; height: 100px;">Div 6</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">200px</div>
+            <div style="background-color: lightpink;">75px</div>
+        </div>
+
+        <div style = "
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-top: 20px;
+            ">
+            <div style="background-color: lightblue;">50px</div>
+            <div style="background-color: lightpink;">1fr</div>
+            <div style="background-color: lightblue;">75px</div>
         </div>
     </body>
 </html>
